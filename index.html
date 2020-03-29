@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="wrapper">
+    <div id='field'></div>
+    <button onclick="onStepButtonClick()" >Step</button>
+    <button onclick="onPlayButtonClick()" >Play/Stop</button>
+    <button onclick="onRndButtonClick()" >Generate Field</button>
+    <div class='params'>W:<input type="number" value="7" id="widthInput">H:<input type="number" value="7" id='heighInput'></div>
+    <div><input type="file" id="file" name="file" /></div>
+    <div>
+        <p>Корректно работают текстовые файлы в формате чисел 1 и 0 разделенные запятой.</p>
+        <p>Перенос строки считается следующей строкой двумерного массива.</p>
+        <p>Пример файла: <a href="test.txt">Пример</a> </p>
+    </div>
+</div>
+
+<script src="life.js"></script>    
+</body>
+</html>

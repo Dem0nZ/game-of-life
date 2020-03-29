@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.params {
+    padding-top: 10px;
+}
+#field {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    margin: 0;
+    padding: 0px;
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    border: black 1px solid;
+}
+.live {
+    width: 50px;
+    height: 50px;
+    background-image: url(covid.png);
+    background-size: contain;
+    border: none;
+}
+button {
+    display: block;
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+}
